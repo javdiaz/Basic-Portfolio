@@ -9,6 +9,7 @@ p {
 
 body {
 	margin: 10px;
+	
 }
 
 header {
@@ -37,6 +38,7 @@ footer {
 
 .mainmenu {
 	margin: 30px 40px 0 0;
+	padding-right: 20px;
 }
 
 .mainmenu a {
@@ -49,7 +51,7 @@ footer {
 .mainmenu li {
 	display: inline;
 	list-style: none;
-	padding-right: 60px;
+	padding-right: 50px;
 }
 
 .portfolio, .contact {
@@ -65,41 +67,55 @@ footer {
 
 .middle {
 	background-color: #D3D3D3;
+	background-image: url('assets/images/middleimage.jpg');
+	background-repeat: repeat;
 	float: left;
 	overflow: auto;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 	border-top: 3px solid #cccccc;
 	border-bottom: 8px #4aaaa5 solid; 
+
 }
 
 .aboutme {
 	float: left;
 	background-color: #fff;
 	width: 63%;
+	padding-bottom: 30px;
 	margin-top: 60px;
+	margin-bottom: 20px;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
 }
 
 .aboutme img {
 	float: left;
-	padding: 30px 10px 10px 0;
+	padding: 30px 20px 10px 0;
+
 
 }
 
 .aboutme h1 {
-	padding: 20px;
+	padding: 30px 0 30px 10px;
 }
 
 .aboutme p {
 	font-size: 18px;
-	padding: 30px 10px 0;
+	padding: 24px 10px 0;
+	line-height: 30px;
+	color: #777777;
+
 }
 
 .connect {
 	float: left;
 	background-color: #fff;
-	width: 30%;
+	width: 20%;
 	text-align: center;
-	margin: 60px auto 60px 60px;
+	margin: 60px auto 60px 90px;
+	border: 1px solid #000;
+	padding:0 20px 30px 20px;
 
 }
 
@@ -107,12 +123,21 @@ footer {
 	color:#4aaaa5;
 	font-size: 30px;
 	font-weight: bold;
-	padding-top: 20px;
+	padding-top: 30px;
+	padding-bottom: 40px;
 }
 
 .connect img {
 	float: left;
+	
 }
+.button img {
+	width: 90px;
+	height: 90px;
+}
+
+
+
 
 
 
