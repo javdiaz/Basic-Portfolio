@@ -2,11 +2,124 @@
 h1, h2, h3 {
 	font-family: Georgia, Times, 'Times New Roman', serif;
 }
+
 p {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-header {
-	
+body {
+	margin: 10px;
 }
+
+header {
+	background: #4aaaa5;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 30px;
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
+footer {
+	text-align: center;
+	background-color: #666666;
+	color: #fff;
+	padding: 50px;
+	clear: both;
+}
+ footer p {
+ 	font-size: 12px;
+ }
+
+.mainmenu {
+	margin: 30px 40px 0 0;
+}
+
+.mainmenu a {
+	text-decoration: none;
+	font-family: helvetica;
+	font-size: 24px;
+	color: #777777;
+}
+
+.mainmenu li {
+	display: inline;
+	list-style: none;
+	padding-right: 60px;
+}
+
+.portfolio, .contact {
+	clear: both;
+}
+
+.aboutme h1, .contact h1, .portfolio h1 {
+	color:#4aaaa5;
+	font-size: 40px;
+	font-weight: bold;
+	border-bottom: 2px solid #777;
+}
+
+.middle {
+	background-color: #D3D3D3;
+	float: left;
+	overflow: auto;
+	padding-bottom: 60px;
+	border-top: 3px solid #cccccc;
+	border-bottom: 8px #4aaaa5 solid; 
+}
+
+.aboutme {
+	float: left;
+	background-color: #fff;
+	width: 63%;
+	margin-top: 60px;
+}
+
+.aboutme img {
+	float: left;
+	padding: 30px 10px 10px 0;
+
+}
+
+.aboutme h1 {
+	padding: 20px;
+}
+
+.aboutme p {
+	font-size: 18px;
+	padding: 30px 10px 0;
+}
+
+.connect {
+	float: left;
+	background-color: #fff;
+	width: 30%;
+	text-align: center;
+	margin: 60px auto 60px 60px;
+
+}
+
+.connect h2 {
+	color:#4aaaa5;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.connect img {
+	float: left;
+}
+
+
+
+
+
+ 
+
+
+
 
