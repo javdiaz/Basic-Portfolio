@@ -8,21 +8,23 @@ p {
 }
 
 body {
-	margin: 10px;
-	
+	margin-top: 10px;
+
 }
 
 header {
 	background: #4aaaa5;
 	color: #fff;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
-	padding: 30px;
 	float: left;
+	padding: 30px;
+	margin-left: 200px;
+	margin-right: 600px;
 }
 
 nav {
-	float: right;
+	float: left;
 }
 
 footer {
@@ -36,105 +38,133 @@ footer {
  	font-size: 12px;
  }
 
+ input {
+ 	display: block;
+ 	margin-bottom: 20px;
+ 	width: 99%;
+ 	height: 30px;
+ 	margin-top: 20px;
+}
+
+label {
+	font-family: helvetica;
+	font-size: 16px;
+	color: #777777;
+	padding-bottom: 10px;
+
+}
+
 .mainmenu {
-	margin: 30px 40px 0 0;
-	padding-right: 20px;
+	margin: 30px 0 0 0;
+	padding-right: 10px;
+
 }
 
 .mainmenu a {
 	text-decoration: none;
 	font-family: helvetica;
-	font-size: 24px;
+	font-size: 20px;
 	color: #777777;
 }
 
 .mainmenu li {
 	display: inline;
 	list-style: none;
-	padding-right: 50px;
+	padding-right: 30px;
 }
 
-.portfolio, .contact {
-	clear: both;
-}
-
-.aboutme h1, .contact h1, .portfolio h1 {
-	color:#4aaaa5;
-	font-size: 40px;
-	font-weight: bold;
-	border-bottom: 2px solid #777;
-}
 
 .middle {
-	background-color: #D3D3D3;
-	background-image: url('assets/images/middleimage.jpg');
-	background-repeat: repeat;
-	float: left;
+	clear: both;
 	overflow: auto;
 	padding-bottom: 30px;
 	border-top: 3px solid #cccccc;
 	border-bottom: 8px #4aaaa5 solid; 
+	background-image: url('assets/images/cheap_diagonal_fabric.png');
+	background: repeat;
 
 }
 
-.aboutme {
+.aboutme, .contact, .portfolio {
 	float: left;
 	background-color: #fff;
-	width: 63%;
-	padding-bottom: 30px;
+	width: 650px;
+	padding: 0 30px 30px 30px;
 	margin-top: 60px;
-	margin-bottom: 20px;
-	border-top: 1px solid #000;
-	border-right: 1px solid #000;
-	border-bottom: 1px solid #000;
+	margin-left: 200px;
+	margin-right: 60px;
+	border: 1px solid #cccccc;
+}
+
+.projects {
+
+	text-align: center;
+	overflow: auto;
 }
 
 .aboutme img {
 	float: left;
 	padding: 30px 20px 10px 0;
-
-
 }
 
-.aboutme h1 {
+.aboutme h1, .contact h1, .portfolio h1 {
+	color:#4aaaa5;
+	font-size: 30px;
+	font-weight: bold;
+	border-bottom: 2px solid #777;
 	padding: 30px 0 30px 10px;
+	border-bottom: 1px solid #cccccc;
 }
 
-.aboutme p {
+.aboutme p, .contact p {
 	font-size: 18px;
 	padding: 24px 10px 0;
 	line-height: 30px;
 	color: #777777;
-
 }
 
 .connect {
 	float: left;
 	background-color: #fff;
-	width: 20%;
+	width: 270px;
 	text-align: center;
-	margin: 60px auto 60px 90px;
-	border: 1px solid #000;
-	padding:0 20px 30px 20px;
+	margin: 60px 0 0 0;
+	border: 1px solid #cccccc;
+	padding: 0 20px 20px 20px;
 
 }
 
 .connect h2 {
 	color:#4aaaa5;
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: bold;
-	padding-top: 30px;
-	padding-bottom: 40px;
+	padding: 20px 0 16px 0;
+	border-bottom: 1px solid #cccccc;
 }
 
 .connect img {
 	float: left;
-	
+	margin: 16px 0 0 0;
 }
+
 .button img {
 	width: 90px;
 	height: 90px;
 }
+
+.portfolio img {
+	float: left;
+	padding: 30px 20px 10px 0;
+	height: 45%;
+	width: 45%;
+}
+
+.contact h1 {
+	margin-bottom: 30px;
+}
+
+
+
 
 
 
