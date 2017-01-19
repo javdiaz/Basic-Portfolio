@@ -175,10 +175,12 @@ label {
 	color: #fff;
 }
 
-#imageone {
+#imageone, #imagetwo, #imagethree, #imagefour, #imagefive {
+	float: left;
+	overflow: auto;
 }
 
-#imageone h2 {
+#imageone h2, #imagetwo h2, #imagethree h2, #imagefour h2, #imagefive h2 {
 	position: absolute;
 	float: left;
 	width: 302px;
