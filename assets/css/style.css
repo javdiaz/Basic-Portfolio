@@ -22,6 +22,11 @@ header {
 	margin-right: 600px;
 }
 
+header a {
+	text-decoration: none;
+	color: #fff;
+}
+
 nav {
 	float: left;
 }
@@ -163,9 +168,14 @@ label {
 	margin-bottom: 30px;
 }
 
-#submission {
-	height: 200px;
+#messagefield {
+	display: block;
+ 	margin-bottom: 20px;
+ 	width: 99%;
+ 	height: 200px;
+ 	margin-top: 14px;
 }
+
 
 #submissionbutton {
 	padding: 8px 20px 20px 20px;
@@ -195,6 +205,8 @@ label {
 	margin-top: 28%;
 	margin-left: 10px;
 }
+
+
 
 
 
