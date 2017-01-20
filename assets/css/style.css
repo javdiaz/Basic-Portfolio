@@ -19,6 +19,7 @@ header {
 	font-weight: bold;
 	float: left;
 	padding: 30px;
+	width: 141px;
 	margin-left: 200px;
 	margin-right: 600px;
 }
@@ -67,6 +68,7 @@ label {
 .mainmenu {
 	margin: 30px 0 0 0;
 	padding-right: 10px;
+	width: 303px;
 }
 
 .mainmenu a {
@@ -137,20 +139,20 @@ label {
 
 .connect {
 	float: left;
-	background-color: #fff;
 	width: 270px;
 	text-align: center;
 	margin: 60px 0 0 0;
 	border: 1px solid #cccccc;
 	padding: 0 20px 20px 20px;
+	background-color: #fff;
 }
 
 .connect h2 {
+	border-bottom: 1px solid #cccccc;
+	padding: 20px 0 16px 0;
 	color:#4aaaa5;
 	font-size: 24px;
 	font-weight: bold;
-	padding: 20px 0 16px 0;
-	border-bottom: 1px solid #cccccc;
 }
 
 .connect img {
@@ -170,8 +172,8 @@ label {
 
 .portfolio img {
 	float: left;
-	padding: 30px 10px 0 10px;
 	width: 302px;
+	padding: 30px 10px 0 10px;
 }
 
 .contact h1 {
@@ -186,18 +188,18 @@ label {
 
 #messagefield {
 	display: block;
- 	margin-bottom: 20px;
  	width: 99%;
  	height: 200px;
  	margin-top: 14px;
+ 	margin-bottom: 20px;
 }
 
 #submissionbutton {
-	padding: 8px 20px 20px 20px;
 	width: 20%;
-	font-size: 14px;
+	padding: 8px 20px 20px 20px;
 	background-color: #4aaaa5;
 	color: #fff;
+	font-size: 14px;
 }
 
 #imageone, #imagetwo, #imagethree, #imagefour, #imagefive {
@@ -209,17 +211,17 @@ label {
 #imageone h2, #imagetwo h2, #imagethree h2, #imagefour h2, #imagefive h2 {
 	position: absolute;
 	float: left;
-	width: 302px;
-	background-color: #4aaaa5;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: auto;
-	padding-left: auto; 
-	color: #fff;
-	font-size: 20px;
 	font-weight: bold;
+	width: 302px;
 	margin-top: 55%;
 	margin-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #4aaaa5;
+	color: #fff;
+	font-size: 20px;
+
+	
 }
 
 
